@@ -1,0 +1,56 @@
+.dep-title {
+    text-align: center;
+    background: #670606;
+    border: 3px solid #FFD700;
+    color: white;
+    margin-top: 1%;
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
+
+.department-content {
+    --gap:0.5rem;
+    --num-cols: 9;
+    --row-height: 300px;
+
+    display: grid;
+    grid-template-columns: repeat(var(--num-cols), 1fr);
+    padding: 1rem 0;
+    gap: var(--gap);
+    margin-top: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.dept-name {
+    color: #7A7A7A;
+    font-weight: 600;
+
+}
+
+.department-photo{
+    height: 100px;
+    width: 100px;
+}
+
+@media all and (max-width: 550px) {
+
+
+    .department-photo {
+        width: 70px;
+        height: 70px;
+
+    }
+
+    .dept-name {
+        font-size: 10px;
+    }
+
+    .department-content{
+        --gap:1rem;
+        --num-cols: 2;
+        --row-height: 300px;
+    }
+
+  }

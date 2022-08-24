@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto+Condensed:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@700&display=swap');
+
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Poppins", sans-serif;
+
+}
+
+.font-description {
+  font-family: 'Inter', sans-serif;
+}
+
+.logo-font {
+    font-family: 'EB Garamond', serif;
+   
+}
+.mini-logo{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color:white;
+}
+
+h1 {
+  font-size: 48px;
+}
+h2 {
+  font-size: 1.5rem;
+}
+
+h4 {
+  font-size: 0.7rem;
+}
+
+.container {
+  max-width: 1240px;
+  margin: auto;
+  padding: 0 1rem;
+}
+
+
+
+
+
+@media screen and (max-width: 940px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+  h2 {
+    font-size: 1.5rem;
+  }
+}

@@ -1,0 +1,46 @@
+.footer {
+    width: 100%;
+    padding: 2rem 0;
+    background-color: #670606;
+    color: white;
+    text-align: center; 
+
+}
+
+.top {
+    margin-bottom: 20px;
+}
+
+.footer ul {
+    justify-content: center;
+    display: flex;
+    margin-bottom: 1px;
+}
+
+
+.ar{
+    font-size: 12px;
+    font-style: italic;
+    margin-bottom: -20px;
+}
+
+@media screen and (max-width: 500px) {
+
+
+    .footer ul {
+        display: grid;
+        line-height: 20px;
+    }
+
+
+    .bottom {
+        font-size: 16px;
+    }
+    
+    .ar {
+        margin-top: 5px;
+        font-size: 10px;
+    }
+    
+}
+
